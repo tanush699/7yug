@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart | 7YUG</title>
+  <meta name="description" content="7YUG — Cart placeholder. Products are coming soon." />
+  <link rel="canonical" href="./cart.html" />
+
+  <meta property="og:title" content="7YUG — Cart" />
+  <meta property="og:description" content="Luxury fashion, ancient myth × futuristic identity." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body class="inner-page">
+
+  <div id="loading" aria-hidden="true">
+    <div class="loading-wrap">
+      <div class="loading-mark" aria-hidden="true">7YUG</div>
+      <div class="loading-sub">Cart awaits the next era</div>
+      <div class="loading-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <div id="cursorLight" aria-hidden="true"></div>
+  <div id="particles" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="site-nav">
+      <a class="logo" href="index.html" aria-label="7YUG Home">
+      <img src="final logo.png" alt="7YUG logo" />
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul id="navMenu" class="nav-links" data-visible="false">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="lookbook.html">Lookbook</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="cart.html" class="nav-cart">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="cart-page">
+    <section class="cart-hero">
+      <div class="cart-card glass-card reveal">
+        <div class="cart-hero__top">
+          <div class="eyebrow">7YUG / Cart</div>
+          <h1 class="display small-display">YOUR CART</h1>
+        </div>
+
+        <div class="empty-state">
+          <div class="empty-icon" aria-hidden="true">⟡</div>
+          <p class="empty-text">
+            Your cart is empty—because the pieces you seek are still <b>COMING SOON</b>.
+          </p>
+          <p class="empty-sub">
+            When the era begins, your selections will appear here.
+          </p>
+        </div>
+
+        <div class="cart-actions">
+          <a class="btn gold-btn" href="collections.html">Discover Collections</a>
+          <button class="btn outline-btn" type="button" disabled aria-disabled="true">Checkout</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="final logo.png" alt="7YUG logo" />
+      <div class="footer-links">
+        <a href="https://www.instagram.com/7yug.co.in/" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://wa.me/917275882176" target="_blank" rel="noreferrer">WhatsApp</a>
+      </div>
+      <p>© <span id="year"></span> 7YUG. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/917275882176" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+    <span class="whatsapp-float__icon" aria-hidden="true">☎</span>
+  </a>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+

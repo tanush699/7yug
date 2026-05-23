@@ -1,0 +1,11 @@
+- [x] Inspect current pages and shared assets
+- [x] Add premium cinematic + ambient foundation hooks (CSS base updated; loader/particles/glow styles added)
+- [x] Create `product.html` and `cart.html`
+- [x] Implement cinematic JS behaviors (loader, cursor glow, ambient particles, reveal, parallax, navbar toggle)
+- [ ] Unify header/nav + footer across all existing pages (index/collections/about/lookbook/contact)
+- [ ] Upgrade remaining pages with loader markup + #cursorLight + #particles + floating WhatsApp button
+- [ ] Upgrade homepage to fullscreen cinematic hero + CTAs + premium sections + coming soon cards
+- [ ] Add premium CSS for WhatsApp floating button + product/cart/editorial sections
+- [ ] Verify logo path and add assets folder if missing
+- [ ] Manual run-by-opening test for all pages (desktop + mobile widths)
+
